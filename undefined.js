@@ -6,3 +6,11 @@ if(a===undefined){
 }else{
     console.log("a is not undefined")
 }
+
+//JS is loosely-typed language
+var m;
+console.log(m);
+m=1;
+console.log(m);
+m="Hello World";
+console.log(m);
