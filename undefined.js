@@ -14,4 +14,3 @@ m=1;
 console.log(m);
 m="Hello World";
 console.log(m);
-console.log("Chlaiye shuru karte he")
