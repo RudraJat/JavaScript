@@ -16,6 +16,8 @@ console.log(c);
 // These both will give error because let and const cant be access outside block scope
 // console.log(b); 
 // console.log(c);
+
+// FUNCION SHADOWING
 const y=120;
 function x(){
     const y =10;
