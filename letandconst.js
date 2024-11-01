@@ -12,3 +12,10 @@ var b=10;
 const c=30;
 console.log(a)
 console.log(b);
+console.log(c);
+function x(){
+    var a =100;
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
