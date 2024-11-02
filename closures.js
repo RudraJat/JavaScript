@@ -3,6 +3,7 @@ function x(){
     function y(){
         console.log(a)
     }
-    y();
+    return y;
 }
-x();
+var c=x();
+console.log(c);// it will return the whole fucniton y 
