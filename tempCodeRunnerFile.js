@@ -1,4 +1,4 @@
-// function s(){
+function s(){
 //     var i = 1;
 //     setTimeout(function(){
 //         console.log(i);
@@ -17,15 +17,4 @@
 // }
 // x();
 
-// //IF WE HAVE TO USE VAR IN PLACE OF LET
-function a(){
-    for(var j=1;j<=5;j++){
-        function close (a){
-            setTimeout(function(){
-                console.log(a);
-            },a*1000);
-        }
-        close(j);
-    }
-}
-a();
+// //IF WE HAVE TO USE V
