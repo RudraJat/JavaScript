@@ -9,6 +9,7 @@ var get=()=>{
 getName();
 console.log(x);
 console.log(getName);
+// console.log(getName);
 
 
 // If we create a arrow function
