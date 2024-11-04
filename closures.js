@@ -12,15 +12,28 @@
 // c();//it'll return the value of a, even when it is inside a local funtion this is due to closure 
 
 
-function z(){
-    var b=299;
-    function x(){
-        var a=1;
-        function y(){
-            console.log(a,b);
-        }
-        y();
+// function z() {
+//     var b = 299;
+//     function x() {
+//         var a = 1;
+//         function y() {
+//             console.log(a, b);
+//         }
+//         y();
+//     }
+//     x();
+// }
+// z();
+
+function a() {
+    var x = 10;
+    function b() {
+        var y = 209;
+        function c() { 
+        console.log(a, b);
     }
-    x();
+    c();
 }
-z();
+b();
+}
+a();
