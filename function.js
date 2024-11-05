@@ -10,3 +10,7 @@ function b(){
     var x=100;
     console.log(x);
 }
+function c(){
+    console.log("Hello Rudra!!!");
+}
+c();
