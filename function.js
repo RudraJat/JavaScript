@@ -10,7 +10,9 @@ a();
 z();
 
 //Anonymous Function
-
+var t=function (){
+     
+}
 
 // var x=7;
 // console.log(x);
