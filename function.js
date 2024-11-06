@@ -1,3 +1,17 @@
+function a(){
+    console.log("a is called");
+}
+
+//Function Expression
+    var z=function (){
+    console.log("b is called");
+}
+a();
+z();
+
+//Anonymous Function
+
+
 // var x=7;
 // console.log(x);
 // a();
@@ -16,13 +30,3 @@
 // c();
 
 //Function Statement or Function Declaration
-function a(){
-    console.log("a is called");
-}
-
-//Function Expression
-    var z=function (){
-    console.log("b is called");
-}
-a();
-z();
