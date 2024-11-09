@@ -31,9 +31,16 @@
 // a();
 
 
-
+//SETTIMEOUT TIMER WILL PRINT VALUE AFTER THE WHOLE CODE IS PIRNTED 
 console.log("Start");
 setTimeout(function cb(){
     console.log("Callback");
 },5000);
 console.log("End");
+//code to wait for 10 sec
+let startDate=new Date().getTime(); //It'll print recent time in sec
+let endDate=startDate;
+while(endDate<startDate+10000){//IT will end while loop after 10 sec from start time
+    endDate=new Date().getTime();
+}
+console.log("while expires");
