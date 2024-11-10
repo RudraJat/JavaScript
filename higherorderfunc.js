@@ -11,6 +11,8 @@ const calculateArea= function(radius){
 };
 console.log(calculateArea(radius));
 
+
+
 //2nd way it is reusable way
 const area=function(radius){
     return Math.PI * radius*radius;
