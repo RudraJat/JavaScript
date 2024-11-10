@@ -1,46 +1,72 @@
-function a(){
-//     console.log("a is called");
-// }
+MAP FUNCTION
+// const arr=[5,1,3,2,6];
 
-// //Function Expression
-//     var z=function (){
-//     console.log("b is called");
+// //DOUBLE IT
+// function double(x){
+//     return x*2;
 // }
-// a();
-// z();
+// const output=arr.map(double);
+// console.log(output);
 
-// //Anonymous Function
-// var t=function (){
-     
-// }
 
-// //Named function expression
-// var m= function xyz(){
-//     console.log("Named function expression");
-// }
-// m();
-// //xyz(); we cant call it outside like this because xyz is in local scope
-
-// //First Class function
-// //ability to pass function as a value
-// function l (param1){
-//     console.log(param1);
-// }
-// l(function(){
-
+// //TRIPLE IT
+// const output1=arr.map(function triple(x){
+//     return x*3;
 // });
-// //another way
-// function k(param1){
-//     console.log(param1);
-// }
-// function xyz(){
+// console.log(output1);
 
-// }
-// k(xyz);
-// //we can return a fucntion from a function
-// function g(){
-//     return function(){
 
+// //BINARY OF IT
+// const output2=arr.map(x => x.toString(2));
+// console.log(output2);
+
+
+
+// //FILTER FUNCTION
+// //filter out all odd and even value
+// function isOdd(x){
+//     return x%2;
+// }
+// const output3=arr.filter(isOdd);
+// console.log(output3);
+
+
+// const output4=arr.filter(function isEven(x){
+//     return x%2===0;
+// });
+// console.log(output4);
+
+
+// const output5=arr.filter(x => x>4);
+// console.log(output5);
+
+
+
+// //RSDUCE FUNCTION
+// //reduce the arr to one value
+// //SUM
+// const output6=arr.reduce(function(acc,curr){
+//     acc+=curr;
+//     return acc;
+// },0);
+// console.log(output6)
+
+
+// //MAXIMUM NUMBER
+// function findMax(arr){
+//     let max=0;
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]>max){
+//             max=arr[i];
+//         }
 //     }
+//     return max;
 // }
-// console.log(g());
+// console.log(findMax(arr));
+// const output7=arr.reduce(function(acc,curr){
+//     if(curr>acc){
+//         acc=curr;        
+//     }
+//     return acc;
+// },0);
+// console.log(output7);
