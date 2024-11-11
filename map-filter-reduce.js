@@ -95,5 +95,5 @@ console.log(result1);
 
 //age<30 thier first name
 //here we well use chaining of filter and map function
-const result3=users.filter(y => y.age<16).map(y => y.firstName);
-console.log(result3);
+const result2 = users.filter(y => y.age<16).map(y => y.firstName);
+console.log(result2);
