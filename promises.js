@@ -10,7 +10,7 @@
 const cart=["shoes", "shirt", "kurta"];
 
 const promise=createOrder(cart); //OrdreID
-
+console.log(promise);
 promise.then(function(orderId){
     console.log(orderId);
 });
@@ -26,7 +26,9 @@ function createOrder(cart){
         }
         const orderId="12345";
         if(orderId){
-            resolve(orderId);
+            setTimeout(function(){
+                resolve(orderId);
+            },5000);
         }
     });
     return pr;
