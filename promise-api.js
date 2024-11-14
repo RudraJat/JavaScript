@@ -165,4 +165,5 @@ Promise.any([p1,p2,p3]).then(result => {
 })
 .catch((err)=>{
     console.error(err);//look like error RED IN COLOR
+    console.log(err.errors);//for seeing array of error on console
 });
