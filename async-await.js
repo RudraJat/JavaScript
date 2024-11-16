@@ -39,3 +39,10 @@
 
 
 //REAL WORLD EXAMPLE OF ASYNC-AWAIT
+
+const Api_url="https://api.github.com/users/RudraJat"
+async function handlePromise() {
+    fetch("Api_url");
+
+}
+handlePromise();
