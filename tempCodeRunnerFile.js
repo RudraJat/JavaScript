@@ -1,3 +1,4 @@
-const p3 = new Promise(function(resolve, reject){
-        setTimeout(() =>reject("P3 fail"),2000);
-        }); 
+Promise = getData();
+// console.log(dataPromise);//IT'LL WRAP VALUE IN THE PROMISE
+
+// dataPromis
