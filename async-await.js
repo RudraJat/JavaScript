@@ -40,9 +40,24 @@
 
 //REAL WORLD EXAMPLE OF ASYNC-AWAIT
 
-const Api_url="https://api.github.com/users/RudraJat"
-async function handlePromise() {
-    fetch("Api_url");
+// const Api_Url="https://api.github.com/users/RudraJat";
+// async function handlePromise() {
+//     const data = await fetch(Api_Url);
+//     const jsonValue= await data.json();
+//     console.log(jsonValue);
+// }
+// handlePromise();
 
+//ERROR HANDELING
+const Api_Url="https://invalidrandomurl";
+async function handlePromise() {
+   try{
+    const data = await fetch(Api_Url);
+    const jsonValue= await data.json();
+    console.log(jsonValue);
+   }catch(err){
+    console.error(err);
+    console.log(err);
+}
 }
 handlePromise();
