@@ -33,7 +33,7 @@
 // }
 // getData();
 // const dataPromise = getData();
-// console.log(dataPromise);//IT'LL WRAP VALUE IN THE PROMISE
+// console.log(dataPromise); // IT'LL WRAP VALUE IN THE PROMISE
 
 // dataPromise.then((res)=>console.log(res));//for printing just value out of promise
 
