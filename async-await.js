@@ -11,13 +11,13 @@
 //     },5000);
 // });
 
-// // HANDELING PROMISE USING NORMAL FUNCTION
-// // function get(){
-// //     //JS engine won't wait for promise to be resolved
-// //     p.then((res)=>console.log(res));
-// //     console.log("Hyyy...");
-// // }
-// // get();
+//  HANDELING PROMISE USING NORMAL FUNCTION
+//  function get(){
+//      //JS engine won't wait for promise to be resolved
+//      p.then((res)=>console.log(res));
+//      console.log("Hyyy...");
+//  }
+//  get();
 
 // // HANDELING PROMISE USING ASYNC-AWAIT FUNCTION
 // async function getData(){
