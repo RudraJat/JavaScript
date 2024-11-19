@@ -1,7 +1,9 @@
 "use strict"; 
 
+
 //this in global space
 console.log(this);
+
 
 //this inside a function
 function x(){
@@ -9,6 +11,7 @@ function x(){
 }
 x();
 // window.x(); this keyword value depends on how it is called
+
 
 //this inside  a object's method
 const obj = {
@@ -31,3 +34,23 @@ const student2={
     name:"Surya",
 };
 student.printName.call(student2);
+
+
+//this inside an arrow function
+const obj1={
+    a:120,
+    x:()=>{
+        console.log(this);
+    },
+};
+obj1.x();
+
+
+//this inside a nested  arrow function
+const obj2={
+    a:120,
+    x: function(){
+        console.log(this);
+    },
+};
+obj1.x();
