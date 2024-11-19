@@ -50,7 +50,10 @@ obj1.x();
 const obj2={
     a:120,
     x: function(){
-        console.log(this);
+        const y=()=>{
+            console.log(this);
+        };
+        y();
     },
 };
-obj1.x();
+obj2.x();
