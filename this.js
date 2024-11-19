@@ -15,6 +15,19 @@ const obj = {
     a:10,
     x:function() {
         console.log(this);
+        console.log(this.a);
     },
 };
 obj.x();
+
+const student={
+    name: "Rudra",
+    printName:function(){
+        console.log(this.name);
+    },
+};
+student.printName();
+const student2={
+    name:"Surya",
+};
+student.printName.call(student2);
