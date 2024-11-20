@@ -12,6 +12,7 @@
 // });
 
 //  HANDELING PROMISE USING NORMAL FUNCTION
+
 //  function get(){
 //      //JS engine won't wait for promise to be resolved
 //      p.then((res)=>console.log(res));
