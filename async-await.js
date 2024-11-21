@@ -21,6 +21,7 @@
 //  get();
 
 // // HANDELING PROMISE USING ASYNC-AWAIT FUNCTION
+
 // async function getData(){
 //     //JS engine was waiting for promise is resolved
 //     console.log("Hello world");
