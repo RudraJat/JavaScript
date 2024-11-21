@@ -1,0 +1,11 @@
+// console.log("Hello");
+// alert("Rudra");
+let rudra= document.getElementById("heading");
+console.log(rudra);
+console.dir(rudra);
+let abc=document.getElementsByClassName("same");
+console.log(abc);
+console.dir(abc);
+const xyz=document.getElementsByTagName("p");
+console.log(xyz);
+console.dir(xyz);
