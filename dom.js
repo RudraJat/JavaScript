@@ -1,4 +1,5 @@
-// console.log("Hello");
+// console.log("Hello"); 
+
 // alert("Rudra");
 let rudra= document.getElementById("heading");
 console.log(rudra);
