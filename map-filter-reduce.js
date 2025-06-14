@@ -1,5 +1,5 @@
 // //MAP FUNCTION
-// const arr=[5,1,3,2,6];
+const arr=[5,1,3,2,6];
 
 // //DOUBLE IT
 // function double(x){
@@ -23,12 +23,12 @@
 
 
 // //FILTER FUNCTION
-// //filter out all odd and even value
-// function isOdd(x){
-//     return x%2;
-// }
-// const output3=arr.filter(isOdd);
-// console.log(output3);
+//filter out all odd and even value
+function isOdd(x){
+    return x%2;
+}
+const output3=arr.filter(isOdd);
+console.log(output3);
 
 
 // const output4=arr.filter(function isEven(x){
@@ -42,7 +42,7 @@
 
 
 
-// //RSDUCE FUNCTION
+// //REDUCE FUNCTION
 // //reduce the arr to one value
 // //SUM
 // const output6=arr.reduce(function(acc,curr){
@@ -71,29 +71,29 @@
 // },0);
 // console.log(output7);
 
-const users=[
-    {firstName: "Rudra", lastName: "jat" , age: 15},
-    {firstName: "Kunu", lastName: "jat" , age: 18},
-    {firstName: "Beta", lastName: "jat" , age: 15},
-];
-const result=users.map(x => x.firstName+" "+x.lastName);
-console.log(result);
+// const users=[
+//     {firstName: "Rudra", lastName: "jat" , age: 15},
+//     {firstName: "Kunu", lastName: "jat" , age: 18},
+//     {firstName: "Beta", lastName: "jat" , age: 15},
+// ];
+// const result=users.map(x => x.firstName+" "+x.lastName);
+// console.log(result);
  
 
-//acc{15:2, 18:1}
-const result1=users.reduce(function(acc, curr){
-    //we will check if our accumulator is there or not
-    if(acc[curr.age]){
-        acc[curr.age]=++acc[curr.age];//if we found same age again
-    }else{
-        acc[curr.age]=1;
-    }
-    return acc;
-},{});//we take second parameter as empty object
-console.log(result1);
+// //acc{15:2, 18:1}
+// const result1=users.reduce(function(acc, curr){
+//     //we will check if our accumulator is there or not
+//     if(acc[curr.age]){
+//         acc[curr.age]=++acc[curr.age];//if we found same age again
+//     }else{
+//         acc[curr.age]=1;
+//     }
+//     return acc;
+// },{});//we take second parameter as empty object
+// console.log(result1);
 
 
-//age<30 thier first name
-//here we well use chaining of filter and map function
-const result2 = users.filter(y => y.age<16).map(y => y.firstName);
-console.log(result2);
+// //age<30 thier first name
+// //here we well use chaining of filter and map function
+// const result2 = users.filter(y => y.age<16).map(y => y.firstName);
+// console.log(result2);
